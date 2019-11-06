@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/mapa"
+            android:title="Mapa" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Mis Hoteles" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Configuracion" />
+        <item
+            android:id="@+id/qr"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="QR" />
+        <item
+            android:id="@+id/rec_de_voz"
+            android:icon="@drawable/ic_mic_black_50dp"
+            android:title="Rec de voz" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/pregunta"
+            android:title="Ayuda" />
+    </group>
+
+    <item android:title="Informacion importante">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Contactos" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/libro"
+                android:title="Informacion Legal" />
+        </menu>
+    </item>
+
+</menu>

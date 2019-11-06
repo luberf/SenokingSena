@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00ecad"
+    tools:context=".BusFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="112dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="1. SELECCIONA TU RUTA" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="37dp"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:text="2. VERIFICA SU TRAYECTO" />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+            android:textSize="20dp"
+        android:text="3. SOLICITA TU BUS"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="250dp"
+        android:orientation="vertical"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="0dp">
+
+        <RadioGroup
+            android:layout_width="374dp"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/rutauno"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="1 Sotracauca" />
+
+            <RadioButton
+                android:id="@+id/rutados"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="2 Translibertad" />
+
+            <RadioButton
+                android:id="@+id/rutatres"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="3 Transipiales" />
+        </RadioGroup>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginBottom="161dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="0dp">
+
+        <Button
+            android:id="@+id/vertray"
+            android:layout_width="212dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:text="Verificar Trayecto" />
+
+        <Button
+            android:id="@+id/solbus"
+            android:layout_width="212dp"
+            android:layout_height="77dp"
+            android:layout_weight="1"
+            android:text="Solicitar Bus" />
+
+    </LinearLayout>
+
+</RelativeLayout>

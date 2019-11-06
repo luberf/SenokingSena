@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+        <EditText
+            android:id="@+id/Caja_usuario"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="82dp"
+            android:layout_marginTop="112dp"
+            android:layout_marginEnd="81dp"
+            android:ems="10"
+            android:hint="@string/Usuario"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/Caja_pass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="81dp"
+            android:layout_marginLeft="81dp"
+            android:layout_marginTop="189dp"
+            android:layout_marginEnd="83dp"
+            android:ems="10"
+            android:hint="@string/Contraseña"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/Boton_Iniciar"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="60dp"
+            android:layout_marginBottom="155dp"
+            android:onClick="boton_login"
+            android:text="@string/Ingresar" />
+
+        <Button
+            android:id="@+id/Boton_Registrar"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/Boton_Iniciar"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="-2dp"
+            android:layout_marginEnd="58dp"
+            android:layout_marginRight="58dp"
+            android:onClick="boton_registrar_main"
+            android:text="@string/Registrar" />
+
+</RelativeLayout>

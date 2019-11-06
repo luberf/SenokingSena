@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">MiBusNaviDrawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="title_activity_esperar">Esperar</string>
+
+    <string name="Usuario">Ingrese correo electronico</string>
+    <string name="Contraseña">Ingrese la contraseña</string>
+    <string name="Registrar">Registrarte</string>
+    <string name="Ingresar">Iniciar</string>
+
+    <string name="Usuario_registrar_vista">Correo electronico</string>
+    <string name="Usuario_registrar_editable">Ingrese el correco electronico</string>
+    <string name="Contraseña_registrar_vista">Contraseña</string>
+    <string name="Contraseña_registrar_editable">Ingrese la contraseña</string>
+    <string name="Nombre_registrar_vista">Nombre</string>
+    <string name="Nombre_registrar_editable">Ingrese el nombre</string>
+    <string name="consulta">Consulta</string>
+
+
+    <string name="Boton_registrar">Registrar</string>
+    <string name="Boton_consulta">consulta</string>
+
+    <string name="Correo">Correo del Cliente</string>
+    <string name="Nombre">Nombre del Cliente</string>
+    <string name="Sesion">Cerrar Sesion</string>
+    <string name="title_activity_qr">QrActivity</string>
+
+    <string name="default_notification_channel_id" translatable="false">defaul_channel</string>
+    <string name="objTTS_sin_motor">El disositivo no cuenta con la capacidad de sintesis de texto</string>
+</resources>

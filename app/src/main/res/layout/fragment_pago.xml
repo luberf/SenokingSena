@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PagoFragment"
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:id="@+id/logopse"
+        android:layout_width="191dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_x="141dp"
+        android:layout_y="63dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mastercard" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="57dp"
+        android:layout_y="20dp"
+        android:text="OPCIONES DE PAGO"
+        android:textSize="20dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="210dp"
+        android:text="" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="221dp"
+        android:layout_y="209dp"
+        android:text="" />
+
+    <ImageView
+        android:id="@+id/logo_visa"
+        android:layout_width="118dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_x="4dp"
+        android:layout_y="93dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/visa" />
+
+
+    <Button
+        android:id="@+id/btnpago"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="91dp"
+        android:layout_y="257dp"
+        android:text="PAGAR" />
+
+</AbsoluteLayout>
